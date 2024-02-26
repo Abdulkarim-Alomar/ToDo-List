@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="toDoList.css">
+</head>
+<body>
+    <div class="name">To Do List</div>
+    
+    <div class="container">
+        <div class="heading">
+            <div class="info">Number Of Tasks: <span>4</span></div>
+            <div class="priority">priority Tasks: <span>2</span></div>
+        </div>
+        <div class="add-task">
+            Write Your Task
+        </div>
+        <div class="writing">
+            <input class="add-input" type="text" autofocus>
+            <button class="add-button">Add</button>
+            <div class="set-priority">
+                <input type="checkbox" name="priority" id="set-priority">
+                <label for="set-priority">Add As priority</label>
+            </div>
+        </div>
+        <div class="all-tasks">
+            <div class="priority-Container"></div>
+            <div class="normal"></div>
+        </div>
+    </div>
+    <script src="toDoList.js"></script>
+</body>
+</html>
